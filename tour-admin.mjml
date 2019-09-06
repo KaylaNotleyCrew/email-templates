@@ -1,0 +1,125 @@
+<mjml owa="desktop" lang="en">
+    <mj-head>
+        <mj-title>Lower Notley Hall Farm</mj-title>
+        <mj-preview>Thank you for booking a tour.</mj-preview>
+        <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+        <mj-font name="Spectral" href="https://fonts.googleapis.com/css?family=Amita" />
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-body 
+                background-color="#fff"/>
+            <mj-text
+                line-height="24px"
+                font-size="14px"
+                padding="0"/>
+			<mj-section
+				padding="0 15px"/>
+			<mj-column
+				width="600px" />
+            <mj-all 
+                padding="0"
+                margin="0"
+                color="#333"
+                font-family="'Open Sans', 'Arial', sans-serif"/>
+        </mj-attributes>
+        <mj-style inline="inline">
+			a {
+                color: #4a996b;
+            }
+            p {
+                margin: 0 0 15px 0;
+            }
+            h1,h2,h3,h4,h5,h6 {
+                margin: 0 auto 15px auto;
+            }
+			h1,h2,h3,h4,h5,h6 {
+				font-family: "Amita", "Times New Roman", serif;
+			}
+			.title {
+				line-height: 34px;
+				margin-bottom: 0;
+			}
+			.subtitle {
+				font-family: "Open Sans", "Arial", sans-serif;
+				font-size: 13px;
+				font-weight: normal;
+				line-height: 16px;
+				color: #B21823;
+				margin-bottom: 0;
+			}
+			.heading {
+				font-size: 24px;
+				line-height: 28px;
+				margin-bottom: 0;
+			}
+			.text-italic {
+				font-style: italic;
+			}
+			.table {
+				width: 100%;
+				color: #333;
+				border: 1px solid #ddd;
+			}
+			.table caption {
+				background-color: #4a996b;
+				color: #fff;
+				font-size: 18px;
+				padding: 10px 0;
+			}
+			.table td, th {
+				padding: 8px;
+			}
+			.table tr:not(:last-of-type) {
+				border-bottom: 1px solid #ddd;
+			}
+			.table tr:nth-of-type(even) {
+				background-color: #f7f7f7;
+			}
+			.table tr:nth-of-type(odd) {
+				background-color: #fff;
+			}
+        </mj-style>
+    </mj-head>
+    <mj-body>
+
+		<!-- MAIN -->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="15px"/>
+				<mj-raw>
+					<table class="table">
+						<caption>Tour Details</caption>
+						<tbody>
+							<tr>
+								<th scope="row">Name</th>
+								<td>{field:first_name_1516715403253} {field:last_name_1516715418876}</td>
+							</tr>
+							<tr>
+								<th scope="row">Phone</th>
+								<td>{field:phone_1516715433010}</td>
+							</tr>
+							<tr>
+								<th scope="row">Email</th>
+								<td><a href="mailto:{field:email_1516715448539}">{field:email_1516715448539}</a></td>
+							</tr>
+							<tr>
+								<th scope="row">Date</th>
+								<td>{field:tour_date_1516714849464}</td>
+							</tr>
+							<tr>
+								<th scope="row">Time</th>
+								<td>{field:time_slot_1516715069801}</td>
+							</tr>
+							<tr>
+								<th scope="row">Comments</th>
+								<td>{field:comments_optional_1517011056858}</td>
+							</tr>
+						</tbody>
+					</table>
+				</mj-raw>
+				<mj-spacer height="15px"/>
+			</mj-column>
+		</mj-section>
+
+    </mj-body>
+</mjml>

@@ -1,0 +1,81 @@
+<mjml owa="desktop" lang="en">
+    <mj-head>
+        <mj-title>Lower Notley Hall Farm</mj-title>
+        <mj-preview>Thank you for booking a tour.</mj-preview>
+        <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+        <mj-font name="Spectral" href="https://fonts.googleapis.com/css?family=Amita" />
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-body 
+                background-color="#fff"/>
+            <mj-text
+                line-height="24px"
+                font-size="14px"
+                padding="0"/>
+			<mj-section
+				padding="0 15px"/>
+			<mj-column
+				width="600px" />
+            <mj-all 
+                padding="0"
+                margin="0"
+                color="#333"
+                font-family="'Open Sans', 'Arial', sans-serif"/>
+        </mj-attributes>
+        <mj-style inline="inline">
+			.table {
+				width: 100%;
+				color: #333;
+				border: 1px solid #ddd;
+			}
+			.table caption {
+				background-color: #4a996b;
+				color: #fff;
+				font-size: 18px;
+				padding: 10px 0;
+			}
+			.table td, th {
+				padding: 8px;
+			}
+			.table tr:not(:last-of-type) {
+				border-bottom: 1px solid #ddd;
+			}
+			.table tr:nth-of-type(even) {
+				background-color: #f7f7f7;
+			}
+			.table tr:nth-of-type(odd) {
+				background-color: #fff;
+			}
+        </mj-style>
+    </mj-head>
+    <mj-body>
+
+		<!-- MAIN -->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="15px"/>
+				<mj-raw>
+					<table class="table">
+						<caption>Message Details</caption>
+						<tbody>
+							<tr>
+								<th scope="row">Name</th>
+								<td>{field:name}</td>
+							</tr>
+							<tr>
+								<th scope="row">Email</th>
+								<td><a href="mailto:{field:email}">{field:email}</a></td>
+							</tr>
+							<tr>
+								<th scope="row">Comments</th>
+								<td>{field:message}</td>
+							</tr>
+						</tbody>
+					</table>
+				</mj-raw>
+				<mj-spacer height="15px"/>
+			</mj-column>
+		</mj-section>
+
+    </mj-body>
+</mjml>
