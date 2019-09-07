@@ -1,0 +1,201 @@
+<mjml owa="desktop" lang="en">
+    <mj-head>
+        <mj-title>Lower Notley Hall Farm</mj-title>
+        <mj-preview>Thank you for booking a tour.</mj-preview>
+        <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+        <mj-font name="Spectral" href="https://fonts.googleapis.com/css?family=Amita" />
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-body 
+                background-color="#fff"/>
+            <mj-text
+                line-height="24px"
+                font-size="14px"
+                padding="0"/>
+			<mj-section
+				padding="0 15px"/>
+            <mj-divider 
+                width="100%"
+				border-color="#eee"/>
+            <mj-navbar-link 
+                font-size="13px"
+                padding="3px 8px"
+                color="#4a996b"
+				text-transform="none"/>
+            <mj-all 
+                padding="0"
+                margin="0"
+                color="#333"
+                font-family="'Open Sans', 'Arial', sans-serif"/>
+        </mj-attributes>
+        <mj-style inline="inline">
+            a {
+                color: #4a996b;
+            }
+            p {
+                margin: 0 0 15px 0;
+            }
+            h1,h2,h3,h4,h5,h6 {
+				margin: 0 auto 15px auto;
+				font-family: "Amita", "Times New Roman", serif;
+			}
+			.title {
+				line-height: 34px;
+				margin-bottom: 5px;
+			}
+			.subtitle {
+				font-family: "Open Sans", "Arial", sans-serif;
+				font-size: 13px;
+				font-weight: normal;
+				line-height: 16px;
+				color: #B21823;
+				margin-bottom: 0;
+			}
+			.heading {
+				font-size: 24px;
+				line-height: 28px;
+				margin-bottom: 0;
+			}
+			.text-italic {
+				font-style: italic;
+			}
+			.table {
+				font-family: "Open Sans", "Arial", sans-serif;
+				width: 100%;
+				color: #333;
+				border: 1px solid #ddd;
+			}
+			.table caption {
+				background-color: #4a996b;
+				color: #fff;
+				font-size: 18px;
+				padding: 10px 0;
+			}
+			.table td, th {
+				padding: 8px;
+			}
+			.table tr:not(:last-of-type) {
+				border-bottom: 1px solid #ddd;
+			}
+			.table tr:nth-of-type(even) {
+				background-color: #f7f7f7;
+			}
+			.table tr:nth-of-type(odd) {
+				background-color: #fff;
+			}
+        </mj-style>
+    </mj-head>
+    <mj-body>
+
+        <!-- HEADER -->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="15px"/>
+				<mj-image src="https://lowernotleyhallfarm.com/wp-content/themes/lnh/img/lnhf-logo.png"
+				href="https://lowernotleyhallfarm.com"
+				width="175px" />
+				<mj-spacer height="15px"/>
+				<mj-text align="center">
+					<h1 class="title">Lower Notley Hall Farm</h1>
+					<h2 class="subtitle">A Step Back in Time | Waterfront Weddings</h2>
+				</mj-text>
+				<mj-spacer height="30px"/>
+				<mj-divider />
+			</mj-column>
+		</mj-section>
+	
+		<!-- MAIN -->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="30px"/>
+				<mj-text>
+					<h2 class="heading">{field:first_name_1516715403253}, thank you for scheduling a tour.</h2>
+					<p class="lead">Your tour information is in the table below:</p>
+				</mj-text>
+				<mj-raw>
+					<table class="table">
+						<caption>Tour Details</caption>
+						<tbody>
+							<tr>
+								<th scope="row">Date</th>
+								<td>{field:tour_date_1516714849464}</td>
+							</tr>
+							<tr>
+								<th scope="row">Time</th>
+								<td>{field:time_slot_1516715069801}</td>
+							</tr>
+							<tr>
+								<th scope="row">Address</th>
+								<td>
+								36290 Notley Manor Lane<br/>
+								Chaptico, MD 20621<br/>
+								<a href="https://goo.gl/maps/ZqspVrYpVvT2">Directions on Google Maps</a>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Lower+Notley+Hall+Farm+Tour&details=Phone:%20(301)%20769-2030%20Email:%20cindy@lowernotleyhallfarm.com%20Website:%20www.lowernotleyhallfarm.com&location=36290%20Notley%20Manor%20Ln%20Chaptico,%20MD%2020621,%20USA&dates={field:calendar_1567795883197}"
+									target="_blank">
+									&#43; Add to Google Calendar
+									</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</mj-raw>
+				<mj-spacer height="15px"/>
+				<mj-text>
+					<p>Please contact Cindy at <a href="mailto:cindy@lowernotleyhallfarm.com">cindy@lowernotleyhallfarm.com</a> or <a href="tel:3017692030">(301) 769-2030</a> if you have any questions or would like to reschedule.</p>
+					<p class="text-italic">Sincerely,<br/>The Notley Crew</p>
+				</mj-text>
+				<mj-spacer height="15px"/>
+				<mj-divider />
+			</mj-column>
+		</mj-section>
+        
+        <!-- FOOTER -->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="30px" />
+				<mj-text
+				align="center">
+					<h2>About Lower Notley Hall Farm</h2>
+				</mj-text>
+				<mj-text
+				align="center"
+				font-size="12px"
+				line-height="16px">
+					<p>Lower Notley Hall Farm is an award-winning and family-owned historic waterfront wedding venue with reception barn located in Southern Maryland, just 50 miles south of Washington, DC.</p>
+				</mj-text>
+				<mj-image
+				src="https://lowernotleyhallfarm.com/wp-content/themes/lnh/img/lnhf-map.png"
+				href="https://maps.google.com/maps?ll=38.309392,-76.822708&z=15&t=m&hl=en-US&gl=US&mapclient=embed&q=36290%20Notley%20Manor%20Ln%20Chaptico%2C%20MD%2020621"
+				width="250px" />
+				<mj-spacer height="15px"/>
+				<mj-navbar>
+					<mj-navbar-link href="https://goo.gl/maps/ZqspVrYpVvT2">
+						Directions
+					</mj-navbar-link>
+					<mj-navbar-link href="https://lowernotleyhallfarm.com/contact/">
+						Contact Us
+					</mj-navbar-link>
+					<mj-navbar-link href="tel:3017692030">
+						(301) 769-2030
+					</mj-navbar-link>
+					<mj-navbar-link href="https://www.facebook.com/Lower-Notley-Hall-Farm-Wedding-Venue-1629580437060850/">
+						Facebook
+					</mj-navbar-link>
+				</mj-navbar>
+				<mj-text
+				align="center"
+				font-size="11px"
+				line-height="14px">
+					<p>© 2017–2018 Lower Notley Hall Farm, LLC. | 
+					<a href="https://lowernotleyhallfarm.com">lowernotleyhallfarm.com</a></p>
+				</mj-text>
+				<mj-spacer height="15px" />
+			</mj-column>
+		</mj-section>
+
+    </mj-body>
+</mjml>
