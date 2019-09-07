@@ -14,8 +14,6 @@
                 padding="0"/>
 			<mj-section
 				padding="0 15px"/>
-			<mj-column
-				width="600px" />
             <mj-all 
                 padding="0"
                 margin="0"
@@ -56,6 +54,7 @@
 				font-style: italic;
 			}
 			.table {
+				font-family: "Open Sans", "Arial", sans-serif;
 				width: 100%;
 				color: #333;
 				border: 1px solid #ddd;
@@ -113,6 +112,14 @@
 							<tr>
 								<th scope="row">Comments</th>
 								<td>{field:comments_optional_1517011056858}</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Tour:%20{field:first_name_1516715403253}%20{field:last_name_1516715418876}&details=Phone:%20{field:phone_1516715433010}%20Email:%20{field:email_1516715448539}&location=36290%20Notley%20Manor%20Ln%20Chaptico,%20MD%2020621,%20USA&dates={field:calendar_1567795883197}"
+									target="_blank">
+									&#43; Add to Google Calendar
+									</a>
+								</td>
 							</tr>
 						</tbody>
 					</table>

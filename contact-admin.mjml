@@ -14,8 +14,6 @@
                 padding="0"/>
 			<mj-section
 				padding="0 15px"/>
-			<mj-column
-				width="600px" />
             <mj-all 
                 padding="0"
                 margin="0"
@@ -23,7 +21,40 @@
                 font-family="'Open Sans', 'Arial', sans-serif"/>
         </mj-attributes>
         <mj-style inline="inline">
+			a {
+                color: #4a996b;
+            }
+            p {
+                margin: 0 0 15px 0;
+            }
+            h1,h2,h3,h4,h5,h6 {
+                margin: 0 auto 15px auto;
+            }
+			h1,h2,h3,h4,h5,h6 {
+				font-family: "Amita", "Times New Roman", serif;
+			}
+			.title {
+				line-height: 34px;
+				margin-bottom: 0;
+			}
+			.subtitle {
+				font-family: "Open Sans", "Arial", sans-serif;
+				font-size: 13px;
+				font-weight: normal;
+				line-height: 16px;
+				color: #B21823;
+				margin-bottom: 0;
+			}
+			.heading {
+				font-size: 24px;
+				line-height: 28px;
+				margin-bottom: 0;
+			}
+			.text-italic {
+				font-style: italic;
+			}
 			.table {
+				font-family: "Open Sans", "Arial", sans-serif;
 				width: 100%;
 				color: #333;
 				border: 1px solid #ddd;
